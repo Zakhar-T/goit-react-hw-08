@@ -18,29 +18,7 @@
   letter-spacing: 1px;
 }
 
-/* .contact-form {
-  background-color: #2c2c3e;
-  padding: 1rem;
-  border-radius: 8px;
-  margin-bottom: 1rem;
+.message {
+  text-align: center;
+  margin-bottom: 16px;
 }
-
-.contact-form input {
-  width: 100%;
-  padding: 10px;
-  margin-top: 6px;
-  margin-bottom: 10px;
-  background-color: #3a3a50;
-  border: 1px solid #555;
-  border-radius: 6px;
-  color: #f0f0f0;
-}
-
-.contact-form button {
-  padding: 8px 16px;
-  background-color: #4b72e6;
-  color: white;
-  border: none;
-  border-radius: 6px;
-  cursor: pointer;
-}*/
