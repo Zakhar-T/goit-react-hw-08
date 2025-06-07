@@ -1,0 +1,14 @@
+.appBar {
+  padding: 16px 32px;
+  border-bottom: 1px solid gray;
+}
+
+.appBarNav {
+  display: flex;
+  justify-content: space-between;
+}
+
+.appBarNavPart {
+  display: flex;
+  gap: 24px;
+}

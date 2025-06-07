@@ -1,0 +1,31 @@
+.contactsPage {
+  margin: 1rem auto;
+  background-color: #1e1e2f;
+  border-radius: 12px;
+  color: #f0f0f0;
+}
+
+.contactsTitle {
+  font-size: 1.8rem;
+  font-weight: bold;
+  margin-bottom: 1rem;
+  color: #ffffff;
+  text-align: center;
+  border-bottom: 2px solid #4b72e6;
+  padding-bottom: 0.5rem;
+  letter-spacing: 1px;
+}
+
+.contactsContainer {
+  display: flex;
+}
+
+.contactsWrapper {
+  max-width: 520px;
+  padding: 1.5rem;
+}
+
+.message {
+  text-align: center;
+  margin-bottom: 16px;
+}
