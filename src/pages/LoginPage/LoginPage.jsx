@@ -2,17 +2,23 @@
 import styles from './LoginPage.module.css';
 // Hooks
 import { useId } from 'react';
+import { useDispatch } from 'react-redux';
 // Formik
 import { Form, Formik, Field, ErrorMessage } from 'formik';
 // Validation
 import * as Yup from 'yup';
+// Operations
+import { login } from '../../redux/auth/opeations';
 
 export default function LoginPage() {
   const emailField = useId();
   const passwordField = useId();
 
-  function handleSubmit() {
-    return;
+  const dispatch = useDispatch();
+
+  function handleSubmit(values, actions) {
+    dispatch(login(values));
+    actions.resetForm();
   }
 
   return (

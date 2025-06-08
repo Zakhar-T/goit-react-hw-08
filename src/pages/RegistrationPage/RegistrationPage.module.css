@@ -3,6 +3,11 @@
   padding: 1rem;
   border-radius: 8px;
   margin-bottom: 1rem;
+  margin-top: 1rem;
+}
+
+.registrationForm > label {
+  color: white;
 }
 
 .registrationFormInput {

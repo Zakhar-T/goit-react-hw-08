@@ -6,9 +6,34 @@
 .appBarNav {
   display: flex;
   justify-content: space-between;
+  align-items: center;
 }
 
 .appBarNavPart {
   display: flex;
+  align-items: center;
   gap: 24px;
+}
+
+.appBarNavLink {
+  text-decoration: none;
+  font-size: 18px;
+  font-weight: 500;
+}
+
+.appBarNavActiveLink {
+  color: #2248bc;
+}
+
+.logOutBtn {
+  padding: 6px 10px;
+  background-color: #4b72e6;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.logOutBtn:hover {
+  background-color: #2248bc;
 }
