@@ -51,7 +51,7 @@ export default function App() {
               path="/registration"
               element={<RestrictedRoute component={<RegistrationPage />} />}
             />
-            <Route path="*" element={<NotFoundPage />} />
+            {/* <Route path="*" element={<NotFoundPage />} /> */}
           </Routes>
         </Suspense>
       </Layout>
