@@ -1,0 +1,18 @@
+.userNavContainer {
+  display: flex;
+  align-items: center;
+  gap: 24px;
+}
+
+.logOutBtn {
+  padding: 6px 10px;
+  background-color: #4b72e6;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.logOutBtn:hover {
+  background-color: #2248bc;
+}
