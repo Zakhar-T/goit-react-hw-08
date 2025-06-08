@@ -21,9 +21,9 @@ const LoginPage = lazy(() => import('../../pages/LoginPage/LoginPage'));
 const ContactsPage = lazy(() =>
   import('../../pages/ContactsPage/ContactsPage'),
 );
-const NotFoundPage = lazy(() =>
-  import('../../pages/NotFoundPage/NotFoundPage'),
-);
+// const NotFoundPage = lazy(() =>
+//   import('../../pages/NotFoundPage/NotFoundPage'),
+// );
 
 export default function App() {
   const dispatch = useDispatch();
