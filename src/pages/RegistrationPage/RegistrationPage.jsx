@@ -8,7 +8,7 @@ import { Form, Formik, Field, ErrorMessage } from 'formik';
 // Validation
 import * as Yup from 'yup';
 // Operations
-import { register } from '../../redux/auth/opeations';
+import { register } from '../../redux/auth/operations';
 
 export default function RegistrationPage() {
   const nameField = useId();

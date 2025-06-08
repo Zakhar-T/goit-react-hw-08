@@ -8,7 +8,7 @@ import { Form, Formik, Field, ErrorMessage } from 'formik';
 // Validation
 import * as Yup from 'yup';
 // Operations
-import { login } from '../../redux/auth/opeations';
+import { login } from '../../redux/auth/operations';
 
 export default function LoginPage() {
   const emailField = useId();

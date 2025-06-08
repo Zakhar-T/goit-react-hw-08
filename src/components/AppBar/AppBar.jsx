@@ -8,7 +8,7 @@ import { NavLink } from 'react-router';
 // Selectors
 import { selectEmail, selectIsLoggedIn } from '../../redux/auth/selectors';
 // Operations
-import { logout } from '../../redux/auth/opeations';
+import { logout } from '../../redux/auth/operations';
 
 export default function AppBar() {
   const isLoggedIn = useSelector(selectIsLoggedIn);

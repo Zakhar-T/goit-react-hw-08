@@ -11,7 +11,7 @@ import { lazy, Suspense, useEffect } from 'react';
 // Selectors
 import { selectIsRefreshing } from '../../redux/auth/selectors';
 // Operations
-import { refreshUser } from '../../redux/auth/opeations';
+import { refreshUser } from '../../redux/auth/operations';
 // Pages
 const HomePage = lazy(() => import('../../pages/HomePage/HomePage'));
 const RegistrationPage = lazy(() =>
@@ -21,9 +21,9 @@ const LoginPage = lazy(() => import('../../pages/LoginPage/LoginPage'));
 const ContactsPage = lazy(() =>
   import('../../pages/ContactsPage/ContactsPage'),
 );
-// const NotFoundPage = lazy(() =>
-//   import('../../pages/NotFoundPage/NotFoundPage'),
-// );
+const NotFoundPage = lazy(() =>
+  import('../../pages/NotFoundPage/NotFoundPage'),
+);
 
 export default function App() {
   const dispatch = useDispatch();
@@ -51,7 +51,7 @@ export default function App() {
               path="/registration"
               element={<RestrictedRoute component={<RegistrationPage />} />}
             />
-            {/* <Route path="*" element={<NotFoundPage />} /> */}
+            <Route path="*" element={<NotFoundPage />} />
           </Routes>
         </Suspense>
       </Layout>
