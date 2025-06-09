@@ -1,6 +1,7 @@
 .appBar {
   padding: 16px 32px;
   border-bottom: 1px solid gray;
+  margin-bottom: 1rem;
 }
 
 .appBarNav {

@@ -1,41 +1,6 @@
-.registrationForm {
-  background-color: #2c2c3e;
-  padding: 1rem;
-  border-radius: 8px;
+.title {
+  margin-left: 16px;
   margin-bottom: 1rem;
-  margin-top: 1rem;
-}
-
-.registrationForm > label {
-  color: white;
-}
-
-.registrationFormInput {
-  width: 100%;
-  padding: 10px;
-  margin-top: 6px;
-  margin-bottom: 10px;
-  background-color: #3a3a50;
-  border: 1px solid #555;
-  border-radius: 6px;
-  color: #f0f0f0;
-}
-
-.registrationForm button {
-  padding: 8px 16px;
-  margin-top: 8px;
-  background-color: #4b72e6;
-  color: white;
-  border: none;
-  border-radius: 6px;
-  cursor: pointer;
-}
-
-.registrationForm button:hover {
-  background-color: #2248bc;
-}
-
-.registrationFormError {
-  display: block;
-  color: #c62929;
+  font-size: 32px;
+  font-weight: 700;
 }
