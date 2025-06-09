@@ -11,7 +11,7 @@ export default function AuthNav() {
         className={({ isActive }) => {
           return clsx(styles.authNavLink, isActive && styles.authNavActiveLink);
         }}
-        to="/registration"
+        to="/register"
       >
         Registration
       </NavLink>
