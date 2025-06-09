@@ -4,7 +4,7 @@ import clsx from 'clsx';
 // Hooks
 import { useSelector } from 'react-redux';
 // Navigation
-import { NavLink } from 'react-router';
+import { NavLink } from 'react-router-dom';
 // Selectors
 import { selectIsLoggedIn } from '../../redux/auth/selectors';
 

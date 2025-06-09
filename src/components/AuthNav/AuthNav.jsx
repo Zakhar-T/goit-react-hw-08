@@ -2,7 +2,7 @@
 import styles from './AuthNav.module.css';
 import clsx from 'clsx';
 // Navigation
-import { NavLink } from 'react-router';
+import { NavLink } from 'react-router-dom';
 
 export default function AuthNav() {
   return (

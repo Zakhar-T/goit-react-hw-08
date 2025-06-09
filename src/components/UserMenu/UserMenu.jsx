@@ -3,12 +3,12 @@ import styles from './UserMenu.module.css';
 // Hooks
 import { useDispatch, useSelector } from 'react-redux';
 // Selectors
-import { selectEmail } from '../../redux/auth/selectors';
+import { selectUser } from '../../redux/auth/selectors';
 // Operations
 import { logout } from '../../redux/auth/operations';
 
 export default function UserMenu() {
-  const login = useSelector(selectEmail);
+  const user = useSelector(selectUser);
 
   const dispatch = useDispatch();
 
@@ -18,7 +18,7 @@ export default function UserMenu() {
 
   return (
     <div className={styles.userNavContainer}>
-      <p>Welcome, {login} !</p>
+      <p>Welcome, {user.email} !</p>
       <button onClick={handleClick} className={styles.logOutBtn}>
         Log Out
       </button>
